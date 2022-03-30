@@ -1,7 +1,9 @@
 {
-  "name": "TimoBot",
+  "name": "timobot",
   "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
-    "mathjs": "10.4.2"
+    "mathjs": "10.4.2",
+    "telegraf": "^4.7.0"
   }
 }
