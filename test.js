@@ -1,4 +1,4 @@
 console.log("Test");
-const zeit = require('./waitTimer.js')
-//zeit.randomTimer();
+import {randomTimer} from './waitTimer.js';
+randomTimer();
 
