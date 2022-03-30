@@ -1,0 +1,7 @@
+{
+  "name": "TimoBot",
+  "version": "1.0.0",
+  "dependencies": {
+    "mathjs": "^10.4.2"
+  }
+}
