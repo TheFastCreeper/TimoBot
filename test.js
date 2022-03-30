@@ -1,4 +1,5 @@
 console.log("Test");
 import {randomTimer} from './services/waitTimer.js';
-randomTimer();
+import {randomStringGen} from './services/randomStringGen.js'
+randomTimer(randomStringGen);
 
