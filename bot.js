@@ -3,7 +3,7 @@ import 'dotenv/config'
 
 import {Scenes, Telegraf} from "telegraf";
 
-const bot = new Telegraf(process.env.TELEGRAM_BOT_KEY);
+const bot = new Telegraf('5233272224:AAE9b1l4ojyzoXuioKCWHasNnrLiyAiiz1o');
 
 
 bot.start(async (ctx) => {
