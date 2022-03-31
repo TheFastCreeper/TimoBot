@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
+    "express": "^4.17.3",
     "mathjs": "10.4.2",
+    "nodemon": "^2.0.15",
     "telegraf": "^4.7.0"
   }
 }
