@@ -11,6 +11,7 @@
     "express": "^4.17.3",
     "mathjs": "10.4.2",
     "nodemon": "^2.0.15",
-    "telegraf": "^4.7.0"
+    "telegraf": "^4.7.0",
+    "telegram": "^2.5.42"
   }
 }

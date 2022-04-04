@@ -1,15 +1,14 @@
 import bot from "../bot.js";
-import { randomTimer } from './waitTimer.js'
+import {printMessage} from "./printMessage.js";
+
+
 
 const spamMessage = async () => {
     bot.command('spamMessage', async (ctx) => {
-
-
-            await ctx.replyWithMarkdown(
-                "Hey, wake up!"
-            );
-
-    });
-}
+           await printMessage();
+});}
 
 export default spamMessage;
+
+
+
