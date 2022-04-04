@@ -1,5 +1,5 @@
 import bot from "../bot.js";
-import {printMessage} from "./printMessage.js";
+import {printMessage} from "../services/printMessage.js";
 
 
 

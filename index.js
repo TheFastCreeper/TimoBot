@@ -1,10 +1,10 @@
 import bot from "./bot.js";
 import 'dotenv/config';
-import help from './services/helpMenu.js'
-import spamMessage from "./services/spamMessage.js";
+import help from './commands/helpMenu.js'
+import spamMessage from "./commands/spamMessage.js";
 import {randomStringGen} from "./services/randomStringGen.js";
-import stopSpammingFunc from "./services/stopCommand.js";
-import stopCommand from "./services/stopCommand.js";
+import stopSpammingFunc from "./commands/stopCommand.js";
+import stopCommand from "./commands/stopCommand.js";
 import {stopSpamming} from "./services/stopSpamming.js";
 
 export let randomString = randomStringGen();

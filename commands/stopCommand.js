@@ -1,7 +1,6 @@
 import bot from "../bot.js";
-import {printMessage} from "./printMessage.js";
 import { randomString } from '../index.js'
-import {stopSpamming} from "./stopSpamming.js";
+import {stopSpamming} from "../services/stopSpamming.js";
 
 const stopSpammingFunc = async () => {
     bot.command(randomString, async (ctx) => {
