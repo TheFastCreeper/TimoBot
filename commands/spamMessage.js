@@ -1,9 +1,11 @@
 import bot from "../bot.js";
+
 import {randomString} from "../index.js";
 
 
 const spamMessage = async () => {
     bot.command('spamMessage', async (ctx) => {
+
         const spamming = setInterval(async () => {
             await bot.telegram.sendMessage(
                 '897402878',
@@ -18,6 +20,7 @@ const spamMessage = async () => {
         }, 500);
     });
 }
+
 
 export default spamMessage;
 

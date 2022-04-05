@@ -1,3 +1,4 @@
+
 import {Scenes, Telegraf} from "telegraf";
 
 const bot = new Telegraf("5282137833:AAGSUe7pXUd28LeF_Bn6nX3sSFEFrHQHLvk");
