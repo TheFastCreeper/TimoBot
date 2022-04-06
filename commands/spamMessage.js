@@ -9,16 +9,9 @@ const spamMessage = async () => {
     bot.command('spammessage', async (ctx) => {
         let randomString = randomStringGen();
         let randomStringCmd = "/"+randomString;
-        let randomTime = randomTimer();
-        console.log(randomStringCmd);
+        let randomTime;
         const spamming = setInterval(async () => {
-            await bot.telegram.sendMessage(
-                '2055340600',
-                "Type the command /" + randomString + " to stop the bot!"
-
-            );
             randomTime = randomTimer();
-            console.log(randomTime);
             await bot.hears(randomStringCmd, (context) => {
                 console.log("Context: "+context.update.message.text)
                 if (context.update.message.text.includes(randomString)){
@@ -28,7 +21,10 @@ const spamMessage = async () => {
                 context.replyWithMarkdown("Spamming terminated")
             });
 
-        }, randomTime);
+            await ctx.replyWithMarkdown(
+                "Type the command /" + randomString + " to stop the bot!"
+            );
+        }, 1000);
 
     });
 }

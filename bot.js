@@ -1,6 +1,6 @@
 import {Scenes, Telegraf} from "telegraf";
 
-const bot = new Telegraf("5282137833:AAEApny9QopaIqkUbCvWYpV1wyms6e8OqJk");
+const bot = new Telegraf("5282137833:AAE2ol6_eYQdQGNRfK1Wj8eYeV3cWptL-eY");
 
 
 bot.start(async (ctx) => {
