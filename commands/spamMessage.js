@@ -6,7 +6,7 @@ import { randomTimer } from "../services/waitTimer.js"
 
 const spamMessage = async () => {
 
-    bot.command('spamMessage', async (ctx) => {
+    bot.command('spammessage', async (ctx) => {
         let randomString = randomStringGen();
         let randomStringCmd = "/"+randomString;
         let randomTime = randomTimer();
