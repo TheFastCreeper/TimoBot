@@ -5,4 +5,4 @@ import {randomStringGen} from "./services/randomStringGen.js";
 
 bot.launch().catch(err => console.log(err));
 help().catch(err => console.log(err));
-spamMessage().catch(err => console.log(err));
+spamMessage();
